@@ -1,0 +1,191 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sovit 69- The Chill Conqueror</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #0a0a0a;
+      color: white;
+      overflow-y: auto;
+    }
+    header {
+      background: #111;
+      padding: 1em;
+      text-align: center;
+      border-bottom: 2px solid #444;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      color: #0ff;
+    }
+    header p {
+      margin: 0.5em 0 1em;
+      font-style: italic;
+      color: #ccc;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.5em;
+    }
+    nav a {
+      color: #0ff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 2em;
+      max-width: 900px;
+      margin: auto;
+    }
+    section {
+      margin-bottom: 3em;
+    }
+    h2 {
+      color: #ff4081;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 2em;
+      background: #111;
+      border-top: 2px solid #444;
+      color: #aaa;
+    }
+    .quote {
+      font-style: italic;
+      color: #00e676;
+      border-left: 4px solid #00e676;
+      padding-left: 1em;
+      margin-top: 1em;
+    }
+    #particles-js {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      top: 0;
+      left: 0;
+    }
+  </style>
+</head>
+<body>
+  <audio id="cheerup" autoplay loop>
+    <source src="https://cdn.pixabay.com/audio/2023/03/23/audio_23d0fe6819.mp3" type="audio/mp3">
+  </audio>
+  <div id="particles-js"></div>
+  <header>
+    <h1>I Am Sovit Gaudel</h1>
+    <p>(Cricket + Sarcasm + Rich Ambitions = Me)</p>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#inspiration">Inspiration</a></li>
+        <li><a href="#cricket">Cricket Vibes</a></li>
+        <li><a href="#goals">Goals</a></li>
+        <li><a href="#beliefs">Beliefs</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Welcome to My Universe</h2>
+      <p>"I’m Sovit  — cricket therapist by choice, rich dreamer by profession. I don’t chase peace, I chase paychecks. Inspired by SRK’s swag and Virat’s fire, I plan to conquer the world... with sarcasm, sixes, and stacks of green paper. Warning: Chill vibes with world-domination ambitions ahead."</p>
+      <blockquote class="quote">
+        "For 60 overs, they should feel like hell out there." — Virat Kohli
+      </blockquote>
+    </section>
+
+    <section>
+      <h2>About Me</h2>
+      <p>I don’t just swing cricket bats — I swing life my way. I’m not professionally trained, but I’m emotionally overqualified. Cricket heals me more than therapy ever could. I’m that guy who laughs at chaos and still hits a six.</p>
+    </section>
+
+    <section id="inspiration">
+      <h2>My Inspiration</h2>
+      <p>SRK gave me the 'Main Hoon Na' vibe. Virat gave me the 'I own this pitch' fire. I mixed their energy and became Sovit — chill with ambition, cool with rage. The world wasn’t ready.</p>
+    </section>
+
+    <section id="cricket">
+      <h2>Cricket Vibes</h2>
+      <p>I play cricket not to impress but to decompress. Each ball is a punchline to my life’s problems. The pitch is my therapy room.</p>
+    </section>
+
+    <section id="goals">
+      <h2>Goals & Conquest</h2>
+      <p>I’m here to be famous. Rich. Legendary. Not in a modest way — I want the Forbes cover, stadiums chanting my name, and haters choking on envy. Cash is king, and I’m the empire.</p>
+    </section>
+
+    <section>
+      <h2>Daily Routine?</h2>
+      <ul>
+        <li>Wake up like a millionaire… in dreams.</li>
+        <li>Crack a joke with destiny.</li>
+        <li>Play cricket like it’s therapy on steroids.</li>
+        <li>Sleep like a king. Snore like a lion.</li>
+      </ul>
+    </section>
+
+    <section id="beliefs">
+      <h2>Beliefs & Vibes</h2>
+      <p>I believe that being chill is an art. Sarcasm is my second language. I don’t run from failure — I play cricket with it. My vibe? A cocktail of calm chaos and ambition wrapped in humor.</p>
+    </section>
+
+    <section>
+      <h2>Future Me (Spoiler Alert!)</h2>
+      <p>They say don't count your chickens before they hatch. I say — my chickens own Lamborghinis and wear Rolex. Future Sovit is rich, hilarious, and possibly too awesome for this dimension.</p>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Sovit Gaudel. Built with sarcasm, cricket bats, and rich dreams.</p>
+    </footer>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script>
+    particlesJS("particles-js", {
+      "particles": {
+        "number": { "value": 80, "density": { "enable": true, "value_area": 800 } },
+        "color": { "value": "#ff0000" },
+        "shape": {
+          "type": "circle",
+          "stroke": { "width": 0, "color": "#000000" },
+          "polygon": { "nb_sides": 5 },
+        },
+        "opacity": { "value": 0.5, "random": false },
+        "size": { "value": 3, "random": true },
+        "line_linked": { "enable": true, "distance": 150, "color": "#ffffff", "opacity": 0.4, "width": 1 },
+        "move": { "enable": true, "speed": 4, "direction": "none", "random": false, "straight": false, "out_mode": "out" }
+      },
+      "interactivity": {
+        "detect_on": "canvas",
+        "events": {
+          "onhover": { "enable": true, "mode": "repulse" },
+          "onclick": { "enable": true, "mode": "push" },
+          "resize": true
+        },
+        "modes": {
+          "repulse": { "distance": 100, "duration": 0.4 },
+          "push": { "particles_nb": 4 }
+        }
+      },
+      "retina_detect": true
+    });
+  </script>
+  
+</body>
+</html>
